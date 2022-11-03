@@ -5,7 +5,7 @@ import logo from "../../public/vectors/logo-white.97f0c2c8.svg";
 import darkLogo from "../../public/images/mobile-menu-icon-dark.svg";
 import closeBtn from "../../public/vectors/mobile-menu-icon-light.0de793a8.svg";
 import logoDark from "../../public/vectors/logo-dark.svg";
-import Button from "../Button";
+import Button from "../button/index";
 
 export const Header = () => {
   const [nav, setNav] = useState(false);

@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../button/index";
 import image from "../../public/images/image (9).png";
 import Image from "next/image";
 
