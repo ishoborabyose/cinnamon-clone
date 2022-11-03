@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button";
+import Button from "../button/index";
 import Image from "next/image";
 import BasketBallIcon from "../../public/vectors/ball.svg";
 import BehanceIcon from "../../public/vectors/behance.svg";

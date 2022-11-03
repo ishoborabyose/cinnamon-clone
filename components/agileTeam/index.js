@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../title";
 import Description from "../description";
-import Button from "../Button";
+import Button from "../button/index";
 import image from "../../public/images/imageTeam.png";
 import Image from "next/image";
 

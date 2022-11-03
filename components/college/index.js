@@ -1,5 +1,5 @@
 import Description from "../description";
-import Button from "../Button";
+import Button from "../button/index";
 import image from "../../public/images/up.png";
 import Image from "next/image";
 import college from "../../public/images/college.png";

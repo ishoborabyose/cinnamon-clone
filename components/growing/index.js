@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button";
+import Button from "../button/index";
 import Title from "../title";
 import Description from "../description";
 import GrowingContent from "../growingContent";
