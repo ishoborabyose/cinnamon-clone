@@ -8,7 +8,7 @@ function Topic() {
       <div>
         <div>
           <h1 className="font-font-bold text-5xl leading-56 ">
-            Stay in the loop <br /> <br /> on tech topics
+            Stay in the loop <br /> on tech topics
           </h1>
         </div>
         <div className="flex space-x-8 overflow-hidden mt-12">

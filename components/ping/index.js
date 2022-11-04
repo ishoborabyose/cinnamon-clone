@@ -10,7 +10,7 @@ import arrowRight from "../../public/images/arrowRight.png";
 function Ping() {
   return (
     <section className="max-w-6xl m-auto px-9 mt-24 py-1/124  relative">
-      <div className="absolute text-1/400 top-[-90px] left-[-25px] text-real-blue opacity-[0.1]">
+      <div className="absolute text-1/400 top-[-70px] left-[-25px] text-real-blue opacity-[0.1]">
         “
       </div>
       <div className="grid  grid-cols-2 ">

@@ -9,8 +9,8 @@ function Content({
   backgroundColor,
 }) {
   return (
-    <section className="lg:mt-24 mt-0">
-      <div className="flex flex-col space-y-10 px-9 py-1/20">
+    <section>
+      <div className="flex flex-col space-y-10 px-9 ">
         <div
           style={{ backgroundColor: backgroundColor }}
           className=" flex items-center p-5  top-0 bottom-0 rounded gap-1/10 left-[2%] right-[72.21%]"

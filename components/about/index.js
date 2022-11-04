@@ -8,7 +8,7 @@ import discussion from "../../public/images/discusion.png";
 function About() {
   return (
     <section className="relative py-1/184   bg-dark-white grid grid-cols-2">
-      <div className="space-y-12 max-w-6xl px-9 m-auto ">
+      <div className="space-y-12 max-w-6xl px-5 m-auto ">
         <div className="space-y-12">
           <Title color="#222222" title="Who we are" />
           <Description

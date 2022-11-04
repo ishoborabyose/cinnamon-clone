@@ -6,6 +6,7 @@ import darkLogo from "../../public/images/mobile-menu-icon-dark.svg";
 import closeBtn from "../../public/vectors/mobile-menu-icon-light.0de793a8.svg";
 import logoDark from "../../public/vectors/logo-dark.svg";
 import Button from "../button/index";
+import play from "../../public/vectors/hero.svg";
 
 export const Header = () => {
   const [nav, setNav] = useState(false);
@@ -44,7 +45,7 @@ export const Header = () => {
       ></div>
       <div
         style={{ backgroundColor: `${color} ` }}
-        className="lg:flex hidden relative max-w-7xl m-auto px-1/80 py-1/20 text-dark-white items-center sm:hidden    gap-10"
+        className="lg:flex hidden relative max-w-6xl m-auto px-5 py-1/20 text-dark-white items-center sm:hidden    gap-10"
       >
         <div className="mr-48">
           <Image className=" h-1/20 w-1/160" src={logos} />
@@ -82,12 +83,13 @@ export const Header = () => {
             backgroundColor: `${color}`,
             border: `2px solid ${bolder}`,
           }}
-          className="w-1/46  hover:shadow-shadow3 flex pl-4 items-center  h-1/46 rounded-full bg-hard-black  shadow-white "
+          className="w-1/46  hover:shadow-shadow3 flex justify-center pl-1 items-center ju  h-1/46 rounded-full bg-hard-black  shadow-white "
         >
-          <div
+          <Image className="" src={play} />
+          {/* <div
             style={{ borderLeft: ` 20px solid ${bolder}` }}
             className="  border-t-[10px] border-t-transparent border-l-[20px]  border-b-[10px] border-b-transparent "
-          ></div>
+          ></div> */}
         </div>
         <Button text="Contact Us" />
       </div>

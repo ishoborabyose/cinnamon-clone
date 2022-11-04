@@ -2,10 +2,9 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="bg-header min-h-auto md:min-h-screen bg-hard-black   ">
-      <div className="max-w-6xl  m-auto px-9 ">
-        <div className="lg:mt-0 mt-18 absolute   w-full bottom-0 top-0 right-0 left-0 -z-10"></div>
-        <div className="text-white  bottom-0 lg:top-40 mb-[23rem] lg:pt-0 pt-32 right-0 left-0 relative">
+    <section className="bg-header bg-hard-black   ">
+      <div className="max-w-6xl px-5 m-auto">
+        <div className="text-white  mb-[10rem] py-48">
           <h1 className="mb-6  lg:text-1/80   text-4xl leading-1/58 font-font-bold lg:leading-1/105 -z-10">
             Results focused design & development agency.
           </h1>
